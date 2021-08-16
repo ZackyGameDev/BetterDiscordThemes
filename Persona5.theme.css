@@ -142,18 +142,11 @@
   position: relative;
 }
 
-.textArea-12jD-V, .textAreaSlate-1ZzRVj ,.slateContainer-3Qkn2x {
-  border-radius: 45px;
-}
-
-.attachButton-2WznTc, .attachButton-2dnuIu, .attachWrapper-2TRKBi {
-  border-radius: 60px;
-}
-
 .chat-3bRxxu .chatContent-a9vAAp {
 	width: 10em;
 }
 
+/* Hiding that ugly oblique funky scrollbar */
 .scroller-2LSbBU::-webkit-scrollbar {
   display: none;
 }
@@ -164,10 +157,12 @@
 	transform: skewX(15deg)
 }
 
+/* The Whole Chat which has been skewed  */
 .scroller-2LSbBU {
 	left: 17.5em;
 	transform: skewX(-15deg);
 	width: 85%;
+  bottom: 1em;
 }
 
 .chatContent-a9vAAp {
@@ -182,8 +177,8 @@
 .channelTextArea-rNsIhG, .jumpToPresentBar-G1R9s6 {
 	width: 61em;
 	left: 17.5em;
-  border-radius: 65px;
-	/*transform: rotate(-2deg) skewX(-3deg);*/
+  /* border-radius: 65px; */
+	/*transform: rotate(-2deg) skewX(-3deg); */
 	bottom: 1em;
 }
 
