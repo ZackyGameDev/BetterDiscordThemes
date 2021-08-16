@@ -44,18 +44,42 @@
 .sidebar-2K8pFh .panels-j1Uci_ {
 	background-color: var(--background-tertiary);
   position: absolute;
-  left: -9em;
-  bottom: -11em;
+  left: -10em;
+  bottom: -13em;
   transform: rotate(30deg);
   height: 10em;
   width: 25em;
   z-index: 100;
 }
 
+/* Voice connected Holder */
+.sidebar-2K8pFh .panels-j1Uci_ .wrapper-24pKcD .container-1giJp5 {
+  height: 6.25em;
+  width: 18em;
+  position: fixed;
+  bottom: 16em;
+  left: 11.5em;
+  background: url(https://orig00.deviantart.net/c680/f/2017/270/6/f/persona_5_dialog_box_by_rodroseasons-dborar3.png);
+  background-size: 20em 8em;
+  overflow: visible !important;
+  background-position: -1em, -1em;
+  transform: rotate(-55deg);
+}
+
+/* Voice Connected */
+.sidebar-2K8pFh .panels-j1Uci_ .wrapper-24pKcD .container-1giJp5 .connection-3KRENF {
+  height: 5em;
+  width: 14em;
+  top: 1.25em;
+  left: 1em;
+  position: relative;
+}
+
+/* Username and voice icons */
 .sidebar-2K8pFh .panels-j1Uci_ .container-3baos1 {
   position: fixed;
-  width: 50%;
-  left: 10%;
+  width: 15em;
+  left: 3em;
 }
 
 /* Window Title */
@@ -135,8 +159,8 @@
 }
 
 .message-2qnXI6 {
-	width: 42em;
-	left: 7.5em;
+	width: 37.5em;
+	left: 10em;
 	transform: skewX(15deg)
 }
 
@@ -159,8 +183,8 @@
 	width: 61em;
 	left: 17.5em;
   border-radius: 65px;
-	/*transform: rotate(-2deg) skewX(-3deg);
-	bottom: 2em;*/
+	/*transform: rotate(-2deg) skewX(-3deg);*/
+	bottom: 1em;
 }
 
 .jumpToPresentBar-G1R9s6 {
@@ -192,8 +216,8 @@
   overflow: scroll;
 	position: absolute;
 	left: 2.5em;
-	bottom: 6em;
-	height: 69%;
+	bottom: 8em;
+	height: 65%;
 	z-index: 1;
 	transform: rotate(-7.5deg);
 }
