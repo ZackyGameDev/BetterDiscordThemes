@@ -63,7 +63,7 @@
 	z-index: 999;
 }
 
-/* Guild List */
+/************************ Guild List ************************/
 .guilds-1SWlCJ {
 	background-color: rgba(0, 0, 0, 0);
 	position: fixed;
@@ -74,32 +74,49 @@
 	transform: rotate(-85deg);
 }
 
+/* Round corners */
 .scroller-1Bvpku {
 	border-radius: 60px;
 }
 
+/* The icons */
 .blobContainer-pmnxKB .wrapper-25eVIn, .expandedFolderIconWrapper-Huv7rA, .guildIcon-2Tpnad, .tutorialContainer-2sGCg9 {
 	transform: rotate(90deg);
 }
 
+/* Home button */
 .tutorialContainer-2sGCg9 {
 	position: relative;
-	right: 1em;
+	top: 1em;
 }
 
+
 #bd-pub-li {
+  float: right;
 	transform: rotate(-90deg);
 	bottom: 2.75em;
 	left: 2.75em;
 	position: relative;
 }
 
-/* Chat Region */
+/************************ Chat Region ************************/
 
 /* .messageContent-2qWWxC {
   background-color: white;
   color: #111
 }  */
+
+/* This is the beginning of your direct message history */
+.container-3RCQyg {
+  transform: skewX(15deg);
+}
+
+/* Wave to stranger DM */
+.containerExpanded-3MGTRr {
+  transform: skewX(15deg);
+  right: -10em;
+  position: relative;
+}
 
 .textArea-12jD-V, .textAreaSlate-1ZzRVj ,.slateContainer-3Qkn2x {
   border-radius: 45px;
