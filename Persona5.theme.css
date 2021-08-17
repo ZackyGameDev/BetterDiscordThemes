@@ -240,7 +240,6 @@
 .members-1998pB {
 	position: fixed;
 	width: 19%;
-	text-shadow: 1px 1px 999px #000;
 	transform: rotate(5deg);
 	height: 95%;
 	background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('https://i.redd.it/fjkr8z1rp7p31.png');
@@ -260,7 +259,7 @@
   height: 35px;
 }
 
-.name-uJV0GL {
+.name-uJV0GL, .name-uJV0GL span {
 	font-family: "Earwig Factory", "Arsenal";
 	font-size: 25px;
   height: 25px;
@@ -1051,10 +1050,10 @@
 }
 
 /* Right Members Area */
-
-.member-3-YXUe .name-uJV0GL {
+/* Commented since this doesn't work with the Earwig Factory font */
+/* .member-3-YXUe .name-uJV0GL {
   font-weight: 600;
-}
+} */
 
 /* User Popup */
 
